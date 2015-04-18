@@ -34,6 +34,7 @@
         <module>Variables</module>
         <module>ControlStatements</module>
         <module>Classes</module>
+        <module>Generics</module>
     </modules>
     <!--
     Опции проекта
