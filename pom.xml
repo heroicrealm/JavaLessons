@@ -33,6 +33,7 @@
         <module>HelloWorld</module>
         <module>Variables</module>
         <module>ControlStatements</module>
+        <module>Classes</module>
     </modules>
     <!--
     Опции проекта
