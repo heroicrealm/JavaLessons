@@ -35,6 +35,7 @@
         <module>ControlStatements</module>
         <module>Classes</module>
         <module>Generics</module>
+        <module>Collections</module>
     </modules>
     <!--
     Опции проекта
