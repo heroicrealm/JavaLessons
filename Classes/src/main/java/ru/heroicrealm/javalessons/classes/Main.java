@@ -5,7 +5,7 @@
  */
 package ru.heroicrealm.javalessons.classes;
 
-import com.sun.corba.se.pept.transport.InboundConnectionCache;
+
 
 /**
  *
@@ -49,14 +49,7 @@ public class Main {
         as.sayHello();
         as.sayGoodbye();
         
-        System.out.println("inline realiztion");
-        
-        as = new AbstractClass() {
-            @Override
-            public void sayGoodbye() {
-                System.out.println("Inline realization of sayGoodbye");
-            }
-        };
+    
         
         as.sayHello();
         as.sayGoodbye();
@@ -75,30 +68,8 @@ public class Main {
         System.out.println("6-5="+dsi.sub(6, 5));
         System.out.println("10/5="+dsi.div(10, 5));
         
-        ami = new AddMulInterface() {
-
-            @Override
-            public int add(int a, int b) {
-                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-            }
-
-            @Override
-            public int mul(int a, int b) {
-                throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-            }
-        };
-        
-        System.out.println("=======================");
-        System.out.println("internal example");
-        System.out.println("=======================");
-        
-        
-        InternalClassExample.Internal2 it2 = new InternalClassExample.Internal2();
-        it2.sayBye();
-        //InternalClassExample.Internal1 it = new InternalClassExample.Internal1();
-        
-        InternalClassExample ite = new InternalClassExample();
-        ite.func();
+     
+       
         
     }
 }
