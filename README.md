@@ -6,5 +6,6 @@ Java lesson examples
 2. ControlStatements
 3. Classes
 4. Generics
-5. Strings --
+5. Strings 
 6. Collections
+8. Exceptions
