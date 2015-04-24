@@ -38,6 +38,7 @@
         <module>Collections</module>
         <module>Strings</module>
         <module>ExceptionDemo</module>
+        <module>IO</module>
     </modules>
     <!--
     Опции проекта
