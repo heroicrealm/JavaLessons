@@ -39,6 +39,7 @@
         <module>Strings</module>
         <module>ExceptionDemo</module>
         <module>IO</module>
+        <module>Threads</module>
     </modules>
     <!--
     Опции проекта
