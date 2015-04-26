@@ -40,6 +40,7 @@
         <module>ExceptionDemo</module>
         <module>IO</module>
         <module>Threads</module>
+        <module>StringProcessing</module>
     </modules>
     <!--
     Опции проекта
