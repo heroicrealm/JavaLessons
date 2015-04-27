@@ -41,6 +41,7 @@
         <module>IO</module>
         <module>Threads</module>
         <module>StringProcessing</module>
+        <module>Reflection</module>
     </modules>
     <!--
     Опции проекта
